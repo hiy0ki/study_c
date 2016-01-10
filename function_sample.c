@@ -8,6 +8,7 @@ main関数だけは必要ない
 
 */
 void func1(void);
+int getYear(void);
 
 
 int main(void)
@@ -16,6 +17,8 @@ int main(void)
     printf("I love \n");
     func1();
 
+    printf("Year : %d \n", getYear());
+
     return 0;
 }
 
@@ -23,4 +26,10 @@ int main(void)
 void func1(void)
 {
     printf("C langage \n");
+}
+
+
+int getYear(void)
+{
+    return 2016;
 }
