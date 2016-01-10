@@ -11,7 +11,6 @@ int main(void)
     printf("pls input float: ");
     scanf("%f", &f);
 
-
     printf("add : %f \n", num + f);
 
     return 0;
