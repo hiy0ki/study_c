@@ -32,5 +32,10 @@ int main()
 
     printf(" %d \n", *(pp + 1)); // == a[1];
 
+    // 代入してみる
+    int ao = *(pp + 3);
+
+    printf(" %d \n", ao); // == a[3];
+
     return 0;
 }
